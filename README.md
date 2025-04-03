@@ -28,3 +28,11 @@ Feel free to check it out [insert link] and let me know your thoughts! 💬
 
 #WebDevelopment #HTML #CSS #JavaScript #AgeCalculator #CodingJourney #FrontendDevelopment #TechProjects
 
+OUTPUT
+
+
+https://github.com/user-attachments/assets/928a22d3-4cd6-4279-885a-315b30ca77ef
+
+
+
+
