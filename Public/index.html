@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Analytics Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="agecalculator.css">
+</head>
+<body>
+    <div class="bg-blur"></div>
+    
+    <main class="app-wrapper">
+        <section class="config-panel">
+            <header>
+                <h1>Age <span>Analytics</span></h1>
+                <p>Discover the precise timeline of your life.</p>
+            </header>
+
+            <form id="ageCalculator">
+                <div class="input-group">
+                    <label for="birthdate">Date of Birth</label>
+                    <input type="date" id="birthdate" required>
+                </div>
+                <button type="submit" class="btn-primary">Generate Insights</button>
+            </form>
+        </section>
+
+        <section class="display-panel" id="result-display">
+            <div class="empty-state">
+                <p>Enter your birthdate to reveal your data</p>
+            </div>
+            </section>
+    </main>
+
+    <script src="agecalculator.js"></script>
+</body>
+</html>
